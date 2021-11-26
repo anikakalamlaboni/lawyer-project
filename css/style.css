@@ -1,0 +1,411 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.header-section{
+    width: 100%;
+}
+.header-section .bg-light{
+       background: #fff !important;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section 
+.navbar-light .navbar-nav .nav-link:focus{
+                  color:#f1602b
+}
+.slider-section{
+          width: 100%;
+          padding: 125px 0px 40px;
+          background: url("../images/slider.png") center top no-repeat;
+          background-size: cover;
+          text-align: center;
+}
+.slider-section h1{
+          font-size: 52px;
+          font-weight: 700;
+          line-height: 62px;
+          text-transform: uppercase;
+          color: #fff;
+
+}
+.arrow{
+    width: 100%;
+    padding: 110px 0px 10px;
+}
+
+/*
+********************************
+      global title code start
+ *********************************
+ */
+ .title{
+     width: 100%;
+ }
+ .title img{
+      margin-bottom: 15px;
+ }
+ .title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #1f4f87; 
+ }
+.who-we-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.who-we-section .title{
+       margin: 40px 0px 0px;
+}
+.who-we-section p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+     color: #b0b0b1; 
+}
+.who-img{
+    width: 100%;
+    text-align: center;
+}
+.what-we-do{
+     width: 100%;
+     padding: 80px 0px;
+     background: url("../images/whatwe.png") center top no-repeat;
+     background-size: cover;
+}
+.what-we-do .title{
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+.what-we-do .card{
+    border-radius: 0px;
+    border: 0px;
+}
+.what-we-do .card .card-body{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     top: 40%;
+}
+
+.what-we-do .card .card-body .card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+}
+.what-we-do .card .card-body .arrows{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+
+.attorney{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/attorney.png") center top no-repeat;
+    background-size: cover;
+}
+.attorney .title{
+    width: 100%;
+    margin: 80px 0px 0px;
+}
+.attorney .title h2{
+    color: #fff;
+}
+.attorney .title p{
+     font-size: 14px;
+     line-height: 24px;
+     color: #929dcf;
+
+}
+.attorney .title .btn-light{
+          background: transparent;
+          padding: 0px;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+         color: #f1602b;
+         border: 0px;
+}
+
+.inner-attorney{
+    width: 100%;
+}
+
+.inner-attorney .card{
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 25px ;
+    
+}
+.inner-attorney .card .card-body{
+     position: absolute;
+     width: 100%;
+    bottom: 5%;
+    left: 5%;
+
+}
+
+.inner-attorney .card .card-body .card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+}
+
+.languages-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.languages-section .title{
+       margin: 40px 0px 0px;
+}
+.languages-section .title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1f4f87; 
+}
+
+.container   .col h5{
+    color: #28377e;
+}
+
+ .container .col p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #929dcf;
+
+}
+
+
+ .container .col .btn-light{
+    background: transparent;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   color: #f1602b;
+   border: 0px;
+}
+
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: 80px;
+    background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+}
+.contact .title h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #fff; 
+}
+
+.contect .mb-3{
+    text-align: center;
+}
+ .contect form{
+	margin-top: 80px; 
+	text-align: center;
+	
+
+}
+input{
+	display: block;
+	width: 350px;
+	height: 40px;
+	margin: 20px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	border-bottom: 1px solid white;
+	background: transparent; 
+	color: white;
+}
+button{
+	width: 350px;
+	height: 40px;
+	font-size: 20px; 
+	background-color:#f1602b; 
+	border: none;
+	color:#b0b0b1;
+	margin-top: 30px;
+
+}
+
+::placeholder{
+	color: white;
+}
+
+
+
+
+
+
+.footer{
+	width: 100%;
+    height: 50%;
+	float: left;
+	padding: 20px 0px;
+	background: #04335c;
+}
+
+
+.footer p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #88C1FF;
+	text-align: center;
+}
+
+
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+
+
+
+/*
+   **Most of the mobile phones
+*/
+@media (min-width: 320px) and (max-width: 480px){
+    /*css start*/
+    .container{
+        width: 100%;
+        
+    }
+    .what-we-do .card{
+    
+        padding-top: 20px;
+    } 
+    .container .col .btn-light{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   .container  .col h5 {
+        padding-top: 20px;
+    }
+    .who-we-section{
+        text-align: center;
+    }
+    .attorney{
+        text-align: center;
+    }
+/*css end*/
+}
+
+
+/*
+   **Most of the mobile phones potrat mode and low resulation tablet
+*/
+@media (min-width: 481px) and (max-width: 767px){
+    /*css start*/
+    .container{
+        width: 100%;
+        
+    }
+.what-we-do .card{
+    
+    padding-top: 20px;
+}
+
+.container .col .btn-light{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container  .col h5 {
+    padding-top: 20px;
+}
+.who-we-section{
+    text-align: center;
+}
+.attorney{
+    text-align: center;
+}
+/*css end*/
+}
+
+
+/*
+  **Most of the tablet & Notebook
+
+*/
+@media (min-width: 768px) and (max-width: 1024px){
+    /*css start*/
+    .container{
+        width: 100%;
+        
+    }
+    .what-we-do .card{
+    
+        padding-top: 20px;
+    }
+    .container .col .btn-light{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   .container  .col h5 {
+        padding-top: 20px;
+    }
+    .who-we-section{
+        text-align: center;
+    }
+    .attorney{
+        text-align: center;
+    }
+    /*css end*/
+
+
+
+
+
+
+
+
+
+
+
